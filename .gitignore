@@ -27,15 +27,19 @@ runx.*
 runx_Data/
 
 #Ignore everything in bolt
-cs/Assets/bolt/*
+Assets/bolt/*
+
+Assets/Gizmos/*
+Bolt_DebugStart_Build/*
+run_Data/*
 
 #Except these root folder & files
-!cs/Assets/bolt/project.bytes
-!cs/Assets/bolt/assemblies/
-!cs/Assets/bolt/resources/
+!Assets/bolt/project.bytes
+!Assets/bolt/assemblies/
+!Assets/bolt/resources/
 
 #But only keep a few files from each dir
-#cs/Assets/bolt/assemblies/*
-#cs/Assets/bolt/resources/*
-#!cs/Assets/bolt/assemblies/bolt.user.dll
-#!cs/Assets/bolt/resources/BoltRuntimeSettings.asset
+#Assets/bolt/assemblies/*
+#Assets/bolt/resources/*
+#!Assets/bolt/assemblies/bolt.user.dll
+#!Assets/bolt/resources/BoltRuntimeSettings.asset
